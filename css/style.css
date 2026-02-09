@@ -1,0 +1,21 @@
+.box {
+    max-width: 800px;
+    margin: 32px auto 0 auto;
+    background-color: #ddd;
+    padding: 48px;
+    border-radius: 30px;
+}
+
+.card {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap:32px
+}
+
+.card_img img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
