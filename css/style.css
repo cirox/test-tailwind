@@ -1,9 +1,50 @@
-.box {
+body {
+    margin: 0;
+}
+
+.silde {
+    position: relative;
+    height: 300px;
+}
+
+.silde_img img {
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+}
+
+.slide_txt {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 400px;
+    background-color: rgba(0,0,0,0.7);
+    height: 100%;
+}
+
+.slide_txt p {
+    z-index: 1;
+    color: #fff;
+    padding: 24px;
+}
+
+/* .box {
     max-width: 800px;
     margin: 32px auto 0 auto;
-    background-color: #ddd;
+    background-color: rgba(0,0,0,0.4);
     padding: 48px;
     border-radius: 30px;
+}
+
+.testo-doppio {
+    display: flex;
+    margin-bottom: 32px;
+    gap: 32px;
+}
+
+.testo-singolo {
+    max-width: 100px;
+    margin: auto;
 }
 
 .card {
@@ -18,4 +59,4 @@
     height: 250px;
     width: 100%;
     object-fit: cover;
-}
+} */
